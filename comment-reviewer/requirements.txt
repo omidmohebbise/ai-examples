@@ -1,0 +1,10 @@
+# Pinned environment for comment-reviewer examples.
+# spaCy (and its dependency stack) doesn't currently support Python 3.14.
+# Use Python 3.12 (recommended) or 3.13 if supported by your spaCy build.
+
+spacy==3.7.5
+# Keep pydantic <2 because spaCy 3.7.x uses pydantic.v1
+pydantic<2
+# Optional: for progress bars etc.
+tqdm>=4.66
+
