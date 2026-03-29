@@ -1,1 +1,12 @@
 /comment-reviewer/*
+/tuning/models/gpt-oss-20b/chat_template.jinja
+/tuning/models/gpt-oss-20b/config.json
+/tuning/models/gpt-oss-20b/generation_config.json
+/tuning/models/gpt-oss-20b/tokenizer.json
+/tuning/models/gpt-oss-20b/tokenizer_config.json
+/tuning/models/Phi-3-mini-4k-instruct/chat_template.jinja
+/tuning/models/Phi-3-mini-4k-instruct/config.json
+/tuning/models/Phi-3-mini-4k-instruct/generation_config.json
+/tuning/models/Phi-3-mini-4k-instruct/model.safetensors
+/tuning/models/Phi-3-mini-4k-instruct/tokenizer.json
+/tuning/models/Phi-3-mini-4k-instruct/tokenizer_config.json

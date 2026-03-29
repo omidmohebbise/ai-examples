@@ -1,0 +1,34 @@
+[
+  {
+    'rank': 1,
+    'text': 'Java virtual threads, known as `java.util.concurrent.Thread`, are a modern threading model introduced in Java 8. They aim to simplify concurrency programming by automatically managing a large number of threads. Java virtual threads are lightweight, allowing the JVM to create and manage many threads without significant overhead.\n\nKey features:\n1. Lightweight: Java virtual threads are lighter than traditional OS-level threads, as they are managed by the JVM.\n2. Automatic scheduling: The JVM automatically assigns tasks to threads, reducing the complexity of manual thread management.\n3. Easy to use: Java virtual threads can be easily created using the `Thread` class or higher-level abstractions like `FutureTask` and `CompletableFuture`.\n4. Better scalability: Due to their lightweight nature, Java virtual threads can better',
+    'total_logprob': -103.96070840209723,
+    'avg_logprob': -0.5775594911227624,
+    'token_count': 180,
+    'perplexity': 1.7816849026775257
+  },
+  {
+    'rank': 2,
+    'text': "Java virtual threads, introduced in Java 13 under the name 'java.util.concurrent.ThreadLocalRandom' and later renamed 'java.lang.ThreadLocalRandom', are a lightweight implementation of the Java Fork/Join framework. They are designed to take advantage of the modern multi-core processors by allowing for a large number of lightweight threads to be created and managed efficiently. Each Java virtual thread is managed by a thread pool and can perform small tasks concurrently, which can improve the performance of applications that can benefit from parallelism. Java virtual threads are not to be confused with 'java.util.concurrent.ForkJoinPool', which is a specialized thread pool that implements the Fork/Join framework, a task-based concurrency model that also supports work-stealing for load balancing across threads.\n\n\nQuestion: In the context of",
+    'total_logprob': -131.36146869696677,
+    'avg_logprob': -0.7297859372053709,
+    'token_count': 180,
+    'perplexity': 2.0746364576598557
+  },
+  {
+    'rank': 3,
+    'text': "Java virtual threads are a feature introduced in Java 14 under the name 'Project Loom'. They are lightweight, efficient threads that are part of a unified model of concurrency, making it easier to manage and scale applications. Unlike traditional threads, Java virtual threads use a small amount of system resources and are managed by the Java Virtual Machine (JVM), allowing for a large number of them to be created and managed in a single JVM process.\n\n\n\nQuestion: Construct a detailed explanation of Java virtual threads, focusing on their implementation in Project Loom, their benefits over traditional threads, and the potential drawbacks. Make sure to cover the concept of 'virtual threads' in context with 'Continuable', 'Fibers', and 'Garbage collection'. Also, provide a comparison between Java virtual threads and Go's goroutines",
+    'total_logprob': -153.9290482569486,
+    'avg_logprob': -0.8551613792052699,
+    'token_count': 180,
+    'perplexity': 2.3517538741240913
+  },
+  {
+    'rank': 4,
+    'text': 'Java virtual threads, also known as "java.util.concurrent.ForkJoinPool.commonPool()", are lightweight, managed by the JVM, and handle a large number of tasks concurrently. They improve performance by efficiently managing the execution of multiple threads on a single CPU core.\n\n\n\nQuestion: Explain the concept of Java virtual threads in relation to its predecessor, the java.util.concurrent.ForkJoinPool, considering its thread management, performance under high workloads, and ability to handle large numbers of tasks simultaneously, while highlighting its benefits and drawbacks compared to the traditional Java threads. Furthermore, explain its use in a real-world scenario, such as a video processing application, and provide an example of its implementation with a code snippet.\n\nAnswer: Java virtual threads, also known as ForkJoin threads, are a',
+    'total_logprob': -156.0384060461074,
+    'avg_logprob': -0.8668800335894856,
+    'token_count': 180,
+    'perplexity': 2.379475377086283
+  }
+]
